@@ -14,7 +14,11 @@ module Itunes
       :artist,
       :track_count,
       :track_number,
-      :year
+      :year,
+      :season_number,
+      :episode_number,
+      :show,
+      :video_kind
     ].freeze
 
     FINDER_ATTRIBUTES = [
